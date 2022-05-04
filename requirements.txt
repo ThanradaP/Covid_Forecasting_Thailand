@@ -1,9 +1,5 @@
 cmdstanpy==0.9.5
-cython
-lunardate
-holidays
-convertdate
-fbprophet
+fbprophet==0.6
 keras==2.7.0
 keras-tuner==1.1.2
 matplotlib-inline==0.1.3
