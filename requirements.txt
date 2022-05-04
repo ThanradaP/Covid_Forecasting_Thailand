@@ -7,11 +7,12 @@ plotly==5.5.0
 pmdarima==1.8.5
 pydeck==0.7.1
 pystan==2.19.1.1
-requests==2.27.1
 scikit-learn==1.0.2
 sklearn==0.0
 statsmodels==0.13.2
 streamlit==1.4.0
 tensorflow==2.7.0
-urllib3==1.26.8
-
+numpy==1.18.4
+streamlit==0.60.0
+pandas==1.0.3
+scipy==1.5.3
