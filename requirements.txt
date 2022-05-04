@@ -1,5 +1,6 @@
 cmdstanpy==0.9.5
-fbprophet==0.6
+ephem
+fbprophet 
 keras==2.7.0
 keras-tuner==1.1.2
 matplotlib-inline==0.1.3
