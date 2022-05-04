@@ -3,7 +3,6 @@ cython
 lunardate
 holidays
 convertdate
-plotly
 fbprophet
 keras==2.7.0
 keras-tuner==1.1.2
