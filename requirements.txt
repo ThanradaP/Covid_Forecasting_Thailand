@@ -1,9 +1,8 @@
-python == 3.7.12
+
 pystan == 2.19.1.1
 pydeck == 0.7.1
 pmdarima ==1.8.5
 plotly ==5.5.0
-pip ==22.0.3
 matplotlib == 3.5.1
 keras ==2.7.0
 keras-preprocessing == 1.1.2
