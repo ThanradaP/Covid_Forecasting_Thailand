@@ -1,4 +1,4 @@
-python==3.7.12
+python==3.7
 pystan == 2.19.1.1
 pydeck == 0.7.1
 pmdarima ==1.8.5
