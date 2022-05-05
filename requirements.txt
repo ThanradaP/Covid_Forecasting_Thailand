@@ -16,7 +16,7 @@ ephem == 3.7.7.1
 fbprophet == 0.7.1
 holidays == 0.12
 convertdate == 2.4.0
-scicy 
+scipy == 1.7.3 
 scikit-learn == 1.0.2
 requests == 2.27.1
 libpython == 2.1
