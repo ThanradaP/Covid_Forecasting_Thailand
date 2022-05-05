@@ -1,4 +1,4 @@
-from turtle import fillcolor
+# from turtle import fillcolor
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -172,11 +172,11 @@ def arima_plot(train,test,predict_future): #predict_on_test
 #       fillcolor="LightPink", opacity=0.5,
 #       layer="below", line_width=0,
 #       )
-  fig.add_vrect(
-      x0=predict_future.index[0], x1=predict_future.index[-1],
-      fillcolor="Yellow", opacity=0.5,
-      layer="below", line_width=0,
-      )
+#   fig.add_vrect(
+#       x0=predict_future.index[0], x1=predict_future.index[-1],
+#       fillcolor="Yellow", opacity=0.5,
+#       layer="below", line_width=0,
+#       )
   return fig
 
 def prophet_plot(train,test,predict_future):
@@ -204,11 +204,11 @@ def prophet_plot(train,test,predict_future):
 #       fillcolor="LightPink", opacity=0.5,
 #       layer="below", line_width=0,
 #       )
-  fig.add_vrect(
-      x0=predict_future.index[0], x1=predict_future.index[-1],
-      fillcolor="Yellow", opacity=0.5,
-      layer="below", line_width=0,
-      )
+#   fig.add_vrect(
+#       x0=predict_future.index[0], x1=predict_future.index[-1],
+#       fillcolor="Yellow", opacity=0.5,
+#       layer="below", line_width=0,
+#       )
   return fig
 
 
