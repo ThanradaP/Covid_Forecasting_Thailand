@@ -19,7 +19,6 @@ convertdate == 2.4.0
 scipy == 1.7.3 
 scikit-learn == 1.0.2
 requests == 2.27.1
-libpython == 2.1
 m2w64-toolchain == 5.3.0
 cython == 0.29.26
 tensorflow == 2.7.0
