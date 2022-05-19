@@ -22,3 +22,4 @@ requests == 2.27.1
 cython == 0.29.26
 tensorflow == 2.7.0
 tensorboard == 2.8.0
+st-btn-select==0.1.2
