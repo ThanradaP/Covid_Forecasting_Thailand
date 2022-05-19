@@ -55,8 +55,7 @@ def timeseries_evaluation_metrics_func(y_true, y_pred):
         col1,col2 = st.columns(2)
         col1.metric(label='RMSE',value=round(rmse,2))
         col2.metric(label='MAPE',value=round(mape,2))
-        
-@st.cache(suppress_st_warning=True)      
+            
 def find_orders(ts,periods_input):
     stepwise_model = auto_arima(ts.dropna(), start_p=1, start_q=1,
                       test='adf',       # use adftest to find optimal 'd'
@@ -281,7 +280,6 @@ def split_sequence(sequence, n_steps_in, n_steps_out):
     y.append(seq_y)
   return np.array(X), np.array(y)
 
-@st.cache(suppress_st_warning=True)
 def lstm_uni_model(data,n_periods,model_type):  #preprocess(df['new_cases'],df['rolling7']])
     n_features = 1
     n_epochs=50
@@ -333,7 +331,7 @@ def lstm_uni_model(data,n_periods,model_type):  #preprocess(df['new_cases'],df['
         pred_sum7.append(temp)
     return pred_sum7
 
-@st.cache(suppress_st_warning=True)    
+  
 def future_exog(col,df,n_periods):
     n_steps=14
     scaler=MinMaxScaler(feature_range=(0,1))
